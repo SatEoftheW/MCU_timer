@@ -1,0 +1,58 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.6 Chrome/140.0.7339.249 Electron/38.8.0 Safari/537.36" version="29.3.6">
+  <diagram name="第 1 页" id="HJZ5Y5KqFb86gZnXtcY3">
+    <mxGraphModel dx="868" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="o3RRz7aD8Y7MfPpFZ0Xl-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="instruction.c" vertex="1">
+          <mxGeometry height="40" width="100" x="270" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="o3RRz7aD8Y7MfPpFZ0Xl-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;" value="头文件链接" vertex="1">
+          <mxGeometry height="40" width="96" x="390" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="o3RRz7aD8Y7MfPpFZ0Xl-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="sbit" vertex="1">
+          <mxGeometry height="30" width="96" x="390" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="o3RRz7aD8Y7MfPpFZ0Xl-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="函数定义" vertex="1">
+          <mxGeometry height="40" width="96" x="390" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="o3RRz7aD8Y7MfPpFZ0Xl-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="读指令函数" vertex="1">
+          <mxGeometry height="40" width="110" x="540" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="o3RRz7aD8Y7MfPpFZ0Xl-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="写指令函数" vertex="1">
+          <mxGeometry height="40" width="110" x="540" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="o3RRz7aD8Y7MfPpFZ0Xl-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="写数据函数" vertex="1">
+          <mxGeometry height="40" width="110" x="540" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="o3RRz7aD8Y7MfPpFZ0Xl-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="BF位检查函数" vertex="1">
+          <mxGeometry height="40" width="110" x="540" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="o3RRz7aD8Y7MfPpFZ0Xl-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CGRAM字模自定义函数" vertex="1">
+          <mxGeometry height="50" width="110" x="540" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="o3RRz7aD8Y7MfPpFZ0Xl-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="字符显示函数" vertex="1">
+          <mxGeometry height="40" width="110" x="540" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="o3RRz7aD8Y7MfPpFZ0Xl-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="字符串显示函数" vertex="1">
+          <mxGeometry height="40" width="110" x="540" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="o3RRz7aD8Y7MfPpFZ0Xl-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="instruction.h" vertex="1">
+          <mxGeometry height="40" width="100" x="270" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="o3RRz7aD8Y7MfPpFZ0Xl-22" edge="1" parent="1" source="o3RRz7aD8Y7MfPpFZ0Xl-2" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="o3RRz7aD8Y7MfPpFZ0Xl-21" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="475" y="450" as="sourcePoint" />
+            <mxPoint x="525" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o3RRz7aD8Y7MfPpFZ0Xl-23" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" value="" vertex="1">
+          <mxGeometry height="240" width="20" x="370" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="o3RRz7aD8Y7MfPpFZ0Xl-24" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" value="" vertex="1">
+          <mxGeometry height="460" width="60" x="480" y="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
