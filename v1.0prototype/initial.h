@@ -1,7 +1,7 @@
 #ifndef INITIAL_H
 #define INITIAL_H
 
-//LCD³õÊ¼»¯
+//LCDÂ³ÃµÃŠÂ¼Â»Â¯
 void LCD_initial();
 
 #endif
