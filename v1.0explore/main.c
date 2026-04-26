@@ -3,16 +3,16 @@
 
 void main()
 {
-	//定义
+	//露篓脪氓
 	unsigned char second = 0;
 	unsigned char second_show, minute, minute_show, hour;
-	/*延时*/
-	Delay1000ms(); //延时1s
-	/*计算*/
+	/*脩脫脢卤*/
+	Delay1000ms(); //脩脫脢卤1s
+	/*录脝脣茫*/
 	second++;
 	second_show = second % 60;
 	minute = second - second_show;
 	minute_show = minute % 60;
 	hour = minute - minute_show;
-	/*显示*/
+	/*脧脭脢戮*/
 }
