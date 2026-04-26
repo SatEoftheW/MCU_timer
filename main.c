@@ -1,18 +1,16 @@
-#include <REGX52.H>
+#include "initial.h"
+#include "instruction.h"
 #include "delay.h"
+
 
 void main()
 {
-	//¶¨Òå
-	unsigned char second = 0;
-	unsigned char second_show, minute, minute_show, hour;
-	/*ÑÓÊ±*/
-	Delay1000ms(); //ÑÓÊ±1s
-	/*¼ÆËã*/
-	second++;
-	second_show = second % 60;
-	minute = second - second_show;
-	minute_show = minute % 60;
-	hour = minute - minute_show;
-	/*ÏÔÊ¾*/
+	/*åˆå§‹åŒ–*/
+	LCD_initial();
+	/*å­—ç¬¦æ˜¾ç¤º*/
+	LCD_showStr(1, 6, "Hello!");
+	LCD_showStr(2, 5, "HD44780U");
+	while(1)
+	{
+	}
 }
