@@ -1,18 +1,18 @@
 #ifndef INSTRUCTION_H
 #define INSTRUCTION_H
 
-//¶ÁÖ¸Áî
+//è¯»æŒ‡ä»¤
 unsigned char readInstruction();
-//Ğ´Ö¸Áî
+//å†™æŒ‡ä»¤
 void writeInstruction(unsigned char i);
-//Ğ´Êı¾İ
+//å†™æ•°æ®
 void writeData(unsigned char i);
-//BF¼ì²é
+//BFæ£€æŸ¥
 void BF();
-//´´½¨CGRAM×ÖÄ£
+//åˆ›å»ºCGRAMå­—æ¨¡
 void LCD_createCGRAM(unsigned char CGRAMaddress, unsigned char CGRAMcharacter[8]);
-//×Ö·ûÏÔÊ¾
+//å­—ç¬¦æ˜¾ç¤º
 void LCD_showChar(unsigned char row, unsigned char column, unsigned char char_show);
-//×Ö·û´®ÏÔÊ¾
+//å­—ç¬¦ä¸²æ˜¾ç¤º
 void LCD_showStr(unsigned char row, unsigned char column, unsigned char str[]);
 #endif
